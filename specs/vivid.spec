@@ -38,7 +38,7 @@ License:        Apache-2.0 OR MIT
 %{_bindir}/vivid
 
 %prep
-%autosetup -n %{crate}-%{version} -p1
+%autosetup -v -n %{crate}-%{version} -p1
 %cargo_prep
 
 %generate_buildrequires
