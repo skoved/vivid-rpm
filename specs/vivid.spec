@@ -3,7 +3,7 @@
 
 %global crate vivid
 
-Name:           vivid
+Name:           rust-vivid
 Version:        0.10.1
 Release:        %autorelease
 Summary:        LS_COLORS manager with multiple themes
@@ -16,14 +16,14 @@ Source:         %{crates_source}
 BuildRequires:  cargo-rpm-macros >= 24
 
 %global _description %{expand:
-LS_COLORS manager with multiple themes.}
+Generator for the LS_COLORS environment variable that controls the colorized
+output of ls, tree, fd, bfs, dust and many other tools.}
 
 %description %{_description}
 
 %package     -n %{crate}
 Summary:        %{summary}
-# FIXME: paste output of %%cargo_license_summary here
-License:        # FIXME
+License:        Apache-2.0 OR MIT
 # LICENSE.dependencies contains a full license breakdown
 
 %description -n %{crate} %{_description}
