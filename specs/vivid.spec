@@ -5,13 +5,14 @@
 
 Name:           rust-vivid
 Version:        0.10.1
-Release:        %autorelease
+Release:        2%{?dist}
 Summary:        LS_COLORS manager with multiple themes
 
 # Upstream license specification: MIT/Apache-2.0
 License:        MIT OR Apache-2.0
 URL:            https://crates.io/crates/vivid
 Source:         %{crates_source}
+Patch0:          10-etcetera-010.patch
 
 BuildRequires:  cargo-rpm-macros >= 24
 
