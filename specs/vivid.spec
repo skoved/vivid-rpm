@@ -12,7 +12,7 @@ Summary:        LS_COLORS manager with multiple themes
 License:        MIT OR Apache-2.0
 URL:            https://crates.io/crates/vivid
 Source:         %{crates_source}
-Patch0:          10-etcetera-010.patch
+Patch1:          etcetera.patch
 
 BuildRequires:  cargo-rpm-macros >= 24
 
