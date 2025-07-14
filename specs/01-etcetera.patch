@@ -1,0 +1,12 @@
+diff -urN vivid-0.10.1-orig/Cargo.toml vivid-0.10.1/Cargo.toml
+--- vivid-0.10.1-orig/Cargo.toml	2024-06-22 16:08:46.000000000 -0400
++++ vivid-0.10.1/Cargo.toml	2025-07-14 15:37:18.566449832 -0400
+@@ -16,7 +16,7 @@
+ yaml-rust = "0.4"
+ lazy_static = "1.2"
+ ansi_colours = "1.0"
+-etcetera = "0.8"
++etcetera = "0.10"
+ rust-embed = "8.4"
+ 
+ [dependencies.clap]
